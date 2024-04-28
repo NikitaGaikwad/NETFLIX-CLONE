@@ -1,0 +1,123 @@
+.login{
+    // width: 98vw;
+    // height: 45vh;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom, 
+        rgba(0,0,0,0) 0%, 
+        rgba(0,0,0,1) 100%),
+        url("https://help.nflxext.com/0af6ce3e-b27a-4722-a5f0-e32af4df3045_what_is_netflix_5_en.png");
+    position: relative;
+    background-size: cover;
+
+    .top{
+        .wrapper{
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            .logo{
+                height: 40px;
+            }
+            
+    
+        }
+        
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        form{
+            width: 300px;
+            height: 300px;
+            padding: 30px;
+            border-radius: 5px;
+            background-color: rgba(10, 10, 10, 0.644);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+           
+
+            h1{
+                font-size: 20px;
+            }
+
+            input{
+                height: 40px;
+                border-radius: 3px;
+                background-color: rgba(128, 128, 128, 0.574);
+                color: white;
+                padding-left: 10px;
+                border: none;
+
+                &::placeholder{
+                    color: lightgrey;
+
+                }
+            }
+
+            button{
+                height: 40px;
+                border-radius: 3px;
+                background-color: red;
+                color: white;
+                border: none;
+                font-size: 15px;
+                font-weight:500;
+                cursor: pointer;
+            }
+
+            span{
+                color: lightgrey;
+                font-size: 14px;
+                b{
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+            small{
+                font-size: 12px;
+            }
+
+            .container1{
+                display: flex;
+                flex-direction: row;
+                margin-top: -18px;
+                color: lightgrey;
+
+                label{
+                    margin-top: 13px;
+                    font-size: 12px;
+                    margin-left: 2px;
+                }
+
+                p{
+                    margin-top: 12px;
+                    font-size: 12px;
+                    margin-left: 145px;
+                }
+                
+
+            }
+        }
+            
+        
+    }
+
+
+}
+
+
+
